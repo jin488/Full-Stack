@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+}
+
+.header-1 {
+    background-color: rgb(75, 255, 59);
+    width: 16rem;
+    height: 8rem;
+    margin: 5px;
+    text-align: center;
+    align-content: center;
+    color: black;
+    font-weight: bold;
+}
+
+.header-2 {
+    background-color: grey;
+    height: 8rem;
+    width: 67rem;
+    margin: 5px;
+    text-align: center;
+    align-content: center;
+    font-weight: bold;
+}
+
+.division {
+    display: block;
+    width: auto;
+    height: 4rem;
+    border: 2px solid black;
+    margin: 5px;
+    margin-right: 5px;
+    text-align: center;
+    align-content: center;
+    font-weight: bold;
+}
+
+.divBox-1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.body-1 {
+    height: 50rem;
+    width: 42rem;
+    background-color: violet;
+    margin: 5px;
+    text-align: center;
+    align-content: center;
+    font-weight: bold;
+    }
+
+.divBox-2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 14rem;
+}
+
+.body-2 {
+    height: 23rem;
+    width: 30.7rem;
+    background-color: skyblue;
+    margin: 5px;
+    text-align: center;
+    align-content: center;
+    font-weight: bold;
+}
+
+.body-3 {
+    height: 23rem;
+    width: 30.7rem;
+    background-color: pink;
+    margin: 5px;
+    text-align: center;
+    align-content: center;
+    font-weight: bold;
+    }
+
+.body-4 {
+    height: 26.4rem;
+    width: 62rem;
+    background-color: yellow;
+    margin: 5px;
+    text-align: center;
+    align-content: center;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: skyblue;
+    height: 8rem;
+    width: 83.6rem;
+    margin: 5px;
+    text-align: center;
+    align-content: center;
+    font-weight: bold;
+    border: 3px dashed black;
+}
