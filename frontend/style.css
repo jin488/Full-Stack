@@ -5,13 +5,24 @@
 
 header {
     display: flex;
+    flex-direction: row;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    width: 98vw;
+    height: 100vh;
+    margin: 5px 5px 5px 10px;
+    /* overflow-x: hidden; */
+    
 }
 
 .header-1 {
     background-color: rgb(75, 255, 59);
-    width: 16rem;
+    width: 15%;
     height: 8rem;
-    margin: 5px;
+    margin: 5px 5px 5px 0px;
     text-align: center;
     align-content: center;
     color: black;
@@ -21,20 +32,18 @@ header {
 .header-2 {
     background-color: grey;
     height: 8rem;
-    width: 67rem;
-    margin: 5px;
+    width: 100%;
+    margin: 5px 10px 5px 0px;
     text-align: center;
     align-content: center;
     font-weight: bold;
 }
 
 .division {
-    display: block;
-    width: auto;
-    height: 4rem;
+    display: flex;
+    flex-direction: column;
+    margin: 5px 10px 5px 0px;
     border: 2px solid black;
-    margin: 5px;
-    margin-right: 5px;
     text-align: center;
     align-content: center;
     font-weight: bold;
@@ -43,13 +52,23 @@ header {
 .divBox-1 {
     display: flex;
     flex-direction: row;
+    width: 100%;
+    margin: 5px 10px 5px 0px;
+}
+
+.divBox-4 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: 5px 10px 5px 0px;
 }
 
 .body-1 {
-    height: 50rem;
-    width: 42rem;
+    height: 100%;
+    width: 20%;
     background-color: violet;
-    margin: 5px;
+    margin: 5px 5px 5px 0px;
     text-align: center;
     align-content: center;
     font-weight: bold;
@@ -58,45 +77,55 @@ header {
 .divBox-2 {
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
-        height: 14rem;
+        height: 24rem;
+        width: 100%;
+        margin: 0px 0px 5px 0px;
+}
+
+.divBox-3 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    margin: 5px 10px 0px 0px;
 }
 
 .body-2 {
-    height: 23rem;
-    width: 30.7rem;
+    height: 100%;
+    width: 50%;
     background-color: skyblue;
-    margin: 5px;
+    margin: 0px 5px 0px 0px;
     text-align: center;
     align-content: center;
     font-weight: bold;
 }
 
 .body-3 {
-    height: 23rem;
-    width: 30.7rem;
+    height: 100%;
+    width: 50%;
     background-color: pink;
-    margin: 5px;
+    margin: 0px 0px 5px 5px;
     text-align: center;
     align-content: center;
     font-weight: bold;
     }
 
 .body-4 {
-    height: 26.4rem;
-    width: 62rem;
+    height: 100%;
+    width: 100%;
     background-color: yellow;
-    margin: 5px;
+    margin: 5px 10px 0px 0px;
     text-align: center;
     align-content: center;
     font-weight: bold;
 }
 
 .footer {
+    display: flex;
+    flex-direction: column;
     background-color: skyblue;
-    height: 8rem;
-    width: 83.6rem;
-    margin: 5px;
+    height: 100%;
+    margin: 10px 10px 5px 0px;
     text-align: center;
     align-content: center;
     font-weight: bold;
