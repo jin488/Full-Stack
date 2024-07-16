@@ -1,0 +1,154 @@
+/*# sourceMappingURL=estilo.css.map */
+
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    width: 600px;
+    height: 150px;
+    background-color: aqua;
+    border: 3px solid black;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    width: 600px;
+    height: 150px;
+    background-color: aqua;
+}
+
+.div1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+    visibility: visible;
+} 
+
+.div2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+    visibility: hidden;
+}
+
+.button1 {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    visibility: visible;
+}
+
+.button2 {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+
+.divVisible1 .div1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+    visibility: visible;
+}
+
+.divVisible2 .div2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+    visibility: visible;
+}
+
+.divHidden2 .div1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+    visibility: hidden;
+}
+
+.buttonHidden .button1 {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+
+.buttonVisible1 .button1 {
+    position: relative;
+    top: 25px;
+    left: 25px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    visibility: visible;
+}
+
+
+.buttonVisible2 .button2 {
+    position: relative;
+    top: 25px;
+    left: 25px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    visibility: visible;
+}
+
+.divExtra2 .div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+    visibility: visible;
+}
