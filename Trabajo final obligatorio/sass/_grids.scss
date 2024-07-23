@@ -1,0 +1,14 @@
+.gridproducts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    row-gap: 60px;
+    .card {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: black;
+        width: 250px;
+        height: 300px;
+    }
+}

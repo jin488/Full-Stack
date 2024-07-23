@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.head {
+  background-color: white;
+  width: 100%;
+  height: 140px;
+  border-bottom: 8px solid gainsboro;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.head .navBar {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  width: 79rem;
+  height: 6rem;
+  margin-left: 15px;
+}
+.head .navBar .logo {
+  display: flex;
+  cursor: pointer;
+  background-image: url(../img/LOGO\ 2.PNG);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 20px;
+  border-top: 0.5px solid transparent;
+  border-left: 0.5px solid transparent;
+  border-bottom: 4px solid #7f72b3;
+  border-right: 4px solid #7f72b3;
+  border-radius: 5px;
+  padding: 10px 5px 10px 5px;
+  margin-right: 30px;
+}
+.head .navBar .logo:hover {
+  display: flex;
+  transition: 0.3s;
+  cursor: pointer;
+  background-image: url(../img/LOGO\ 3.PNG);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 20px;
+  border-top: 0.5px solid #36D1DC;
+  border-left: 0.5px solid #36D1DC;
+  border-bottom: 4px solid #36D1DC;
+  border-right: 4px solid #36D1DC;
+  border-radius: 5px;
+  padding: 10px 5px 10px 5px;
+}
+.head .navBar .unList {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+  padding: 20px;
+  margin: 10px;
+  width: 28rem;
+  gap: 50px;
+}
+.head .navBar .unList .pagesLinks {
+  text-decoration: none;
+  color: #7f72b3;
+  font-size: 18px;
+}
+.head .navBar .unList .pagesLinks:hover {
+  text-decoration: none;
+  transition: 0.5s;
+  color: #36D1DC;
+  font-size: 18px;
+}
+.head .navBar .search {
+  display: flex;
+  align-items: center;
+  margin-left: 200px;
+}
+.head .navBar .search .emoji {
+  background-color: white;
+  border: 3px solid gainsboro;
+  border-radius: 8px 0px 0px 8px;
+  border-right: none;
+  height: 26px;
+  margin-top: 3px;
+}
+.head .navBar .search .searching {
+  margin-right: 35px;
+  width: 200px;
+  height: 32px;
+  border-radius: 0px 8px 8px 0px;
+  border: 3px solid gainsboro;
+  border-left: none;
+  padding: 10px;
+  margin-top: 3px;
+}
+.head .navBar .singIn {
+  background-color: transparent;
+  width: 100px;
+  height: 100px;
+}
+.head .navBar .singIn .user {
+  background-color: #7f72b3;
+  cursor: pointer;
+  font-size: 35px;
+  margin-top: 25px;
+  border: none;
+  border-radius: 5px;
+  padding-left: 2px;
+}
+.head .navBar .singIn .user:hover {
+  transition: 0.3s;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 35px;
+  margin-top: 25px;
+  border: none;
+  border-radius: 5px;
+}
+.head .navBar .boxCart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 8px;
+  margin: -50px;
+  margin-left: 0px;
+}
+.head .navBar .boxCart .shoppingCart {
+  background-color: #7f72b3;
+  width: 50px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+  font-size: 35px;
+  border-radius: 5px;
+}
+.head .navBar .boxCart .shoppingCart:hover {
+  transition: 0.3s;
+  background-color: transparent;
+  border-radius: 7px;
+}
+
+.gridproducts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  row-gap: 60px;
+}
+.gridproducts .card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: black;
+  width: 250px;
+  height: 300px;
+}/*# sourceMappingURL=style.css.map */
