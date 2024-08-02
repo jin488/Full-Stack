@@ -15,16 +15,26 @@
         border: 2px solid #7f72b3;
         margin: 22px;
         overflow-y: scroll;
+
+        .specialOffer {
+            background-color: #7f72b3;
+            text-align: center;
+            text-transform: uppercase;
+            font-family: "Open Sans", sans-serif;
+            cursor: crosshair;
+        }
+
         .miniCard {
             display: flex;
             flex-direction: column;
             align-items: center;
             width: 90%;
-            height: 250px;
+            height: auto;
             background-color: gainsboro;
             border: 2px solid #7f72b3;
             border-radius: 10px;
             margin: 10px;
+
             .titleProductOffer {
                 color: #000000;
                 font-size: 15px;
@@ -36,26 +46,30 @@
                     transition: 0.3s;
                 }
             }
+
             .imgProduct {
                 width: 75%;
                 height: 55%;
                 background-color: white;
                 margin: 10px;
             }
+
             .priceOffer {
                 display: inline;
                 width: auto;
                 margin-left: 15px;
                 color: rgb(24, 133, 24);
             }
+
             .discount {
                 display: inline;
                 width: auto;
                 margin-left: 20px;
                 color: red;
                 text-transform: uppercase;
-                cursor:grab;
+                cursor: grab;
             }
+
             .oldPrice {
                 display: block;
                 margin-left: 30px;
@@ -64,7 +78,7 @@
         }
     }
 
-    .principalProducts {   
+    .principalProducts {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 50px;
@@ -112,7 +126,8 @@
                 overflow-x: hidden;
                 margin-top: 20px;
                 height: 100px;
-                font-family: "Roboto Slab", serif;;
+                font-family: "Roboto Slab", serif;
+                ;
             }
 
             .price {
@@ -128,6 +143,7 @@
                 font-weight: lighter;
                 height: auto;
                 padding-bottom: 10px;
+
                 .viewMore2 {
                     text-decoration: none;
                     border: none;
@@ -136,6 +152,7 @@
                     font-weight: lighter;
                     color: #000000;
                 }
+
                 .viewMore2:hover {
 
                     background-color: transparent;
@@ -143,11 +160,11 @@
                     font-weight: lighter;
                     color: #7f72b3;
                 }
-    
+
             }
 
-           
-            
+
+
         }
 
     }
