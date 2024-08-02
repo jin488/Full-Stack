@@ -1,0 +1,74 @@
+[
+    {
+        "id": "01",
+        "name": "Smart Led Tv BGH 43” Pulgadas Full HD b4323fk5a",
+        "image": "/img/smart-led-tv-bgh-43pulgadas-full-hd-b4323fk5a.jpg",
+        "description": "Smart LED TV. 43” screen. FHD (1920x1080). Screen format 16:9. Refresh rate 60Hz. Contrast ratio 1200. Brightness 220 CD/M2. Audio outputs MP3, WMA, OGG. Power 8W. Sound modes: standard, movie, music, news, user. Connections: Dual Band Wi-Fi / 2.4GHz and 5.8GHz. Bluetooth 5.0. Composite video input 1 RCA (3-in-1 miniplug). 2 female type A connectors (USB v2.0). 3 HDMI v2.0 with CEC and HDCP 2.0, HDMI 2 compatible with ARC. TDA tuner. Dimensions with stand (height-width-depth) 58.9 x 95.5 x 19.3 cm. Includes base x2, bag with screws for the base x1, remote control x1, power cable x1.",
+        "price": 308,
+        "stock": 2
+    },
+    {
+        "id": "02",
+        "name": "Smart TV TCL 50” L50P635 4K GOOGLE BT HDR",
+        "image": "/img/Smart-TV-TCL-50-L50P635-4K-GOOGLE-BT-HDR.jpg",
+        "description": "Smart LED Google TV. 50” screen, UHD 4K resolution (3840 x 2160). Refresh rate 60Hz. Contrast ratio 5000:1. Brightness 260 CD/M2. Quad-core processor x4 1.1 GHz. Memory 8 GB eMMC 5.1. Audio outputs. Power 2 x 9.5W. Dolby Audio sound. Connections: Bluetooth 5.0. Wi-Fi. Component video input. Composite video input. USB. HDMI. Digital optical. TDA tuner. VESA mount 200x200. Audio: MP3, WMA, AC3, AC4. Image: JPEG, PNG, BMP, GIF. Video: H.264, H.265, MPEG1/2/4, WMV, VC1, VP8, VP9, AV1. Dimensions with stand (height-width-depth) 70 x 111.2 x 26.5 cm. Includes 1 multimedia remote control, 1 AV IN adapter, power cable.",
+        "price": 454,
+        "stock": 4
+    },
+    {
+        "id": "03",
+        "name": "SMART LED GOOGLE TV PHILIPS 32” PULGADAS HD 32PHD6918/77",
+        "image": "/img/smart-led-google-tv-philips-32-pulgadas-hd-32phd6918-77.png.png",
+        "description": "Smart LED Google TV. 32” HD screen (1366x768). Diagonal screen size (metric): 80 cm. Aspect ratio: 16:9. Audio output. Sound type: Dolby Audio. Clear and crisp dialogue. Powerful bass. Output power (RMS): 10 W. Speaker configuration: 5W x 2 speakers. Connections: Wi-Fi 802.11ac, 2x2, dual-band. Bluetooth 5.0. USB: 2. HDMI: 3. Other connections: Headphone output, IEC75 antenna, service connector, digital audio output (optical), Ethernet-LAN RJ-45. Digital audio output SPDIF: 1 (optical). Computer inputs on all HDMI: HDR compatible, HDR10/HLG. Video inputs on all HDMI: HDR compatible, HDR10/HLG (Hybrid Log Gamma). TDA tuner. Digital TV: ISDB-T. Pre-installed apps: YouTube, Amazon Prime Video, Google Play Movies, Google Play Music, Google Search, YouTube Music, Netflix. Flash memory size: 8 GB. Remote control: Voice. Dimensions with stand (height-width-depth): 45.4 x 71.7 x 17.6 cm. Includes: remote control, table stand, power cable, and 2 AAA batteries.",
+        "price": 350,
+        "stock": 1,
+        "offer": "discount 100",
+        "oldPrice": 450
+    },
+    {
+        "id": "04",
+        "name": "SMART LED TV SAMSUNG 43” PULGADAS 4K UHD UN43CU7000GCZB",
+        "image": "/img/SMART-LED-TV-SAMSUNG-43-PULGADAS-4K-UHD-UN43CU7000GCZB.jpeg",
+        "description": "Smart TV. 43” LED screen UHD 4K (3840 x 2160). Wide screen format. HDR. Refresh rate 50 Hz. Crystal 4K processor, Motion Xcelerator, Tizen smart TV operating system. Audio outputs. Power 20W. Connections: Wi-Fi 5. Bluetooth 5.2. 3 HDMI inputs. 1 USB-A. Network port. 1 digital audio output (optical). TDA tuner. VESA mount 200x200 mm. Dimensions and weight with base (height-width-depth) 62.78 x 96.39 x 19.25 cm. Weight 7.9 Kg.",
+        "price": 750,
+        "stock": 3
+    },
+    {
+        "id": "05",
+        "name": "SOPORTE TV LED FIJO BE ONE BF2100",
+        "image": "/img/SOPORTE-TV-LED-FIJO-BE-ONE-BF2100.jpeg",
+        "description": "Fixed LED TV mount. Accepted size 26-60”. Accepted weight 35 kg.",
+        "price": 15,
+        "stock": 2,
+        "offer": "discount 6",
+        "oldPrice": 21
+    },
+    {
+        "id": "06",
+        "name": "DISPOSITIVO SMART GOOGLE CHROMECAST 3",
+        "image": "/img/dispositivo-smart-google-chromecast-3.jpeg",
+        "description": "Chromecast 3. Convert your LCD or LED TV into a SMART TV. HDMI and MicroUSB connection. Compatible with Android, iOS, Mac, and Windows. Suitable for Netflix, YouTube, and Flow.",
+        "price": 108,
+        "stock": 3
+    },
+    {
+        "id": "07",
+        "name": "SMART LED GOOGLE TV RCA 55” PULGADAS 4K UHD AND55P6UHD",
+        "image": "/img/SMART-LED-GOOGLE-TV-RCA-55”-PULGADAS-4K-UHD-AND55P6UHD.png",
+        "description": "Smart TV Google. 55” LED UHD 4K (3840 x 2160) screen. 16:09 screen format. 60Hz refresh rate. Audio outputs: optical S/PDIF (digital audio), headphone. RMS power: 2 x 9.5W. Connections: Wi-Fi, Bluetooth, 1 RF (75 ohms) antenna/cable, 1 AV video, 1 R/L audio, 3 HDMI, 1 USB, 1 LAN. Includes infrared remote control and base stand.",
+        "price": 765,
+        "stock": 2,
+        "offer": "discount 100",
+        "oldPrice": 865
+    },
+    {
+        "id": "08",
+        "name": "LG Soundbar SC9S",
+        "image": "/img/LG-Soundbar-SC9S.jpg",
+        "description": "The LG SC9S home theater system includes a compact soundbar and a wireless subwoofer. This 3.1.3-channel duo supports Dolby Atmos and DTS:X audio tracks to create an immersive 3D sound around the users.",
+        "price": 1500,
+        "stock": 3,
+        "offer": "discount 450",
+        "oldPrice": 1950
+    }
+]
