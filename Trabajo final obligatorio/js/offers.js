@@ -2,6 +2,7 @@ fetch("/data/offer.json")
     .then(response => response.json())
     .then(offerProducts => {
         newOfferProducts(offerProducts);
+        errorBuy(offerProducts)
     });
 
 const offerProducts = document.getElementById("offerProducts");
@@ -21,7 +22,7 @@ const newOfferProducts = (comerce) => {
                     <p class="priceOffer"> USD $${product.price} </p>
                     <p class="discount"> ${product.offer}</p>
                 </div>
-                <label class="quantityOfProducts" for="">
+                <label class="labelBuy" for="">
                     <form class="quantityOfProducts">
                         <p class="oldPrice"> USD $${product.oldPrice}</p>
                         <input class="numberInput" id="buying" type="number">
@@ -37,7 +38,33 @@ const newOfferProducts = (comerce) => {
 
 };
 
+function fetchData () {
+    fetch("/data/offer.json")
+    .then(response => response.json())
+    .then(stock => {
+        errorBuy(stock);
+    });
+}
 
-let amount = document.getElementById("buying");
-let btnBuy = document.querySelector("#btnB")
+
+    let amount = document.querySelector("#buying");
+    const btnBuy = document.querySelector("#btnB");
+
+function errorBuy(products) {
+
+    if (amount === products.stock) {
+        alert("ayuda")
+    } else if (amount <= products.stock) {
+        alert("muy bien")
+    }
+}
+
+
+
+btnBuy.addEventListener("click", (e) => {
+    e.preventDefault();
+    errorBuy()
+})
+
+
 
