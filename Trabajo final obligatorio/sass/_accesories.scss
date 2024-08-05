@@ -81,6 +81,42 @@ body {
                     height: auto;
                 }
 
+                
+            .product-card,
+            .buy-button {
+                padding: 10px 20px;
+                background-color: #36D1DC;
+                color: white;
+                border: none;
+                border-radius: 0px 0px 7px 7px;
+                cursor: pointer;
+                transition: background-color 0.3s;
+                height: auto;
+            }
+
+            .quantity-controls {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 10px;
+                height: auto;
+            }
+
+            .quantity-controls button {
+                background-color: #7f72b3;
+                border: none;
+                color: white;
+                padding: 5px 10px;
+                cursor: pointer;
+            }
+
+            .quantity-controls span {
+                background-color: white;
+                align-content: center;
+                text-align: center;
+            }
+
+
             }
         }
     }

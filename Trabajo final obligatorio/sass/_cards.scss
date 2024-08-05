@@ -54,118 +54,161 @@
                 margin: 10px;
             }
 
-            .priceOffer {
-                display: inline;
-                width: auto;
-                margin-left: 15px;
-                color: rgb(24, 133, 24);
-            }
+            .newOffer {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 10px;
 
-            .discount {
-                display: inline;
-                width: auto;
-                margin-left: 20px;
-                color: red;
-                text-transform: uppercase;
-                cursor: grab;
-            }
+                .priceOffer {
+                    display: inline;
+                    width: auto;
+                    margin-left: 15px;
+                    color: rgb(24, 133, 24);
+                }
 
-            .oldPrice {
-                display: block;
-                margin-left: 30px;
-                text-decoration: line-through;
-            }
-        }
-    }
+                .oldPrice {
+                    display: inline;
+                    margin-left: 15px;
+                    margin-right: 15px;
+                    width: auto;
+                    text-decoration: line-through;
+                }
 
-    .principalProducts {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 50px;
-        flex-wrap: wrap;
-        justify-content: center;
-        background-color: white;
-        width: 950px;
-        height: auto;
-
-        .card {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin: 10px;
-            width: 250px;
-            background-color: gainsboro;
-            border: 2px solid #7f72b3;
-            border-radius: 10px;
-
-            .titleProduct {
-                align-items: center;
-                text-transform: uppercase;
-                text-align: center;
-                height: 40%;
-                font-family: "Open Sans", sans-serif;
-
-                &:hover {
-                    cursor: pointer;
-                    color: #7f72b3;
-                    transition: 0.3s;
+                .discount {
+                    display: inline;
+                    width: auto;
+                    margin-right: 15px;
+                    color: red;
+                    text-transform: uppercase;
+                    cursor: grab;
                 }
             }
 
-            .imgProduct {
-                object-fit: contain;
-                height: 100%;
-                width: 100%;
+            .product-card,
+            .buy-button {
+                padding: 10px 20px;
+                background-color: #36D1DC;
+                color: white;
+                border: none;
+                border-radius: 0px 0px 7px 7px;
+                cursor: pointer;
+                transition: background-color 0.3s;
+            }
+
+            .quantity-controls {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 10px;
+            }
+
+            .quantity-controls button {
+                background-color: #7f72b3;
+                border: none;
+                color: white;
+                padding: 5px 10px;
+                cursor: pointer;
+            }
+
+            .quantity-controls span {
                 background-color: white;
-            }
-
-            .descriptionProduct {
+                align-content: center;
                 text-align: center;
-                font-size: 10px;
-                overflow: scroll;
-                overflow-x: hidden;
-                margin-top: 20px;
-                height: 100px;
-                font-family: "Roboto Slab", serif;
-                ;
+                padding: 4px 0px 3px 0px;
             }
 
-            .price {
-                text-align: start;
-                padding: 30px 1px 30px 20px;
-                height: auto;
-            }
+        }
+    }
+}
 
-            .viewMore {
+
+.principalProducts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+    width: 950px;
+    height: auto;
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+        width: 250px;
+        background-color: gainsboro;
+        border: 2px solid #7f72b3;
+        border-radius: 10px;
+
+        .titleProduct {
+            align-items: center;
+            text-transform: uppercase;
+            text-align: center;
+            height: 40%;
+            font-family: "Open Sans", sans-serif;
+
+            &:hover {
+                cursor: pointer;
+                color: #7f72b3;
+                transition: 0.3s;
+            }
+        }
+
+        .imgProduct {
+            object-fit: contain;
+            height: 100%;
+            width: 100%;
+            background-color: white;
+        }
+
+        .descriptionProduct {
+            text-align: center;
+            font-size: 10px;
+            overflow: scroll;
+            overflow-x: hidden;
+            margin-top: 20px;
+            height: 100px;
+            font-family: "Roboto Slab", serif;
+            ;
+        }
+
+        .price {
+            text-align: start;
+            padding: 30px 1px 30px 20px;
+            height: auto;
+        }
+
+        .viewMore {
+            border: none;
+            background-color: transparent;
+            cursor: pointer;
+            font-weight: lighter;
+            height: auto;
+            padding-bottom: 10px;
+
+            .viewMore2 {
+                text-decoration: none;
                 border: none;
                 background-color: transparent;
                 cursor: pointer;
                 font-weight: lighter;
-                height: auto;
-                padding-bottom: 10px;
-
-                .viewMore2 {
-                    text-decoration: none;
-                    border: none;
-                    background-color: transparent;
-                    cursor: pointer;
-                    font-weight: lighter;
-                    color: #000000;
-                }
-
-                .viewMore2:hover {
-
-                    background-color: transparent;
-                    cursor: pointer;
-                    font-weight: lighter;
-                    color: #7f72b3;
-                }
-
+                color: #000000;
             }
 
+            .viewMore2:hover {
 
+                background-color: transparent;
+                cursor: pointer;
+                font-weight: lighter;
+                color: #7f72b3;
+            }
 
         }
 
+
+
     }
+
 }

@@ -223,26 +223,63 @@
   background-color: white;
   margin: 10px;
 }
-.gridProducts .newOffers .miniCard .priceOffer {
+.gridProducts .newOffers .miniCard .newOffer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.gridProducts .newOffers .miniCard .newOffer .priceOffer {
   display: inline;
   width: auto;
   margin-left: 15px;
   color: rgb(24, 133, 24);
 }
-.gridProducts .newOffers .miniCard .discount {
+.gridProducts .newOffers .miniCard .newOffer .oldPrice {
+  display: inline;
+  margin-left: 15px;
+  margin-right: 15px;
+  width: auto;
+  text-decoration: line-through;
+}
+.gridProducts .newOffers .miniCard .newOffer .discount {
   display: inline;
   width: auto;
-  margin-left: 20px;
+  margin-right: 15px;
   color: red;
   text-transform: uppercase;
   cursor: grab;
 }
-.gridProducts .newOffers .miniCard .oldPrice {
-  display: block;
-  margin-left: 30px;
-  text-decoration: line-through;
+.gridProducts .newOffers .miniCard .product-card,
+.gridProducts .newOffers .miniCard .buy-button {
+  padding: 10px 20px;
+  background-color: #36D1DC;
+  color: white;
+  border: none;
+  border-radius: 0px 0px 7px 7px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
-.gridProducts .principalProducts {
+.gridProducts .newOffers .miniCard .quantity-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.gridProducts .newOffers .miniCard .quantity-controls button {
+  background-color: #7f72b3;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.gridProducts .newOffers .miniCard .quantity-controls span {
+  background-color: white;
+  align-content: center;
+  text-align: center;
+  padding: 4px 0px 3px 0px;
+}
+
+.principalProducts {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 50px;
@@ -252,7 +289,7 @@
   width: 950px;
   height: auto;
 }
-.gridProducts .principalProducts .card {
+.principalProducts .card {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -262,26 +299,26 @@
   border: 2px solid #7f72b3;
   border-radius: 10px;
 }
-.gridProducts .principalProducts .card .titleProduct {
+.principalProducts .card .titleProduct {
   align-items: center;
   text-transform: uppercase;
   text-align: center;
   height: 40%;
   font-family: "Open Sans", sans-serif;
 }
-.gridProducts .principalProducts .card .titleProduct:hover {
+.principalProducts .card .titleProduct:hover {
   cursor: pointer;
   color: #7f72b3;
   transition: 0.3s;
 }
-.gridProducts .principalProducts .card .imgProduct {
+.principalProducts .card .imgProduct {
   -o-object-fit: contain;
      object-fit: contain;
   height: 100%;
   width: 100%;
   background-color: white;
 }
-.gridProducts .principalProducts .card .descriptionProduct {
+.principalProducts .card .descriptionProduct {
   text-align: center;
   font-size: 10px;
   overflow: scroll;
@@ -290,12 +327,12 @@
   height: 100px;
   font-family: "Roboto Slab", serif;
 }
-.gridProducts .principalProducts .card .price {
+.principalProducts .card .price {
   text-align: start;
   padding: 30px 1px 30px 20px;
   height: auto;
 }
-.gridProducts .principalProducts .card .viewMore {
+.principalProducts .card .viewMore {
   border: none;
   background-color: transparent;
   cursor: pointer;
@@ -303,7 +340,7 @@
   height: auto;
   padding-bottom: 10px;
 }
-.gridProducts .principalProducts .card .viewMore .viewMore2 {
+.principalProducts .card .viewMore .viewMore2 {
   text-decoration: none;
   border: none;
   background-color: transparent;
@@ -311,7 +348,7 @@
   font-weight: lighter;
   color: #000000;
 }
-.gridProducts .principalProducts .card .viewMore .viewMore2:hover {
+.principalProducts .card .viewMore .viewMore2:hover {
   background-color: transparent;
   cursor: pointer;
   font-weight: lighter;
@@ -514,45 +551,47 @@ body {
   margin-left: 15px;
   color: rgb(24, 133, 24);
 }
-.offerProducts .newTotalOffers .miniCard .newOffer .discount {
-  display: inline;
-  width: auto;
-  margin-right: 20px;
-  color: red;
-  text-transform: uppercase;
-  cursor: grab;
-}
-.offerProducts .newTotalOffers .miniCard .quantityOfProducts {
-  display: flex;
-  justify-content: space-between;
-}
-.offerProducts .newTotalOffers .miniCard .quantityOfProducts .oldPrice {
+.offerProducts .newTotalOffers .miniCard .newOffer .oldPrice {
   display: inline;
   margin-left: 15px;
   width: auto;
   text-decoration: line-through;
 }
-.offerProducts .newTotalOffers .miniCard .quantityOfProducts .numberInput {
+.offerProducts .newTotalOffers .miniCard .newOffer .discount {
   display: inline;
-  margin-left: 150px;
-  width: 40px;
-  height: 10px;
-  padding: 10px;
-  background-color: transparent;
+  width: auto;
+  margin-right: 15px;
+  color: red;
+  text-transform: uppercase;
+  cursor: grab;
 }
-.offerProducts .newTotalOffers .miniCard .quantityOfProducts .btnBuy {
-  background-color: #7f72b3;
+.offerProducts .newTotalOffers .miniCard .product-card, .offerProducts .newTotalOffers .miniCard .buy-button {
+  padding: 10px 20px;
+  background-color: #36D1DC;
   color: white;
-  border: 2px solid white;
-  width: 45px;
-  height: 34px;
-  margin-right: 10px;
+  border: none;
+  border-radius: 0px 0px 7px 7px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  height: auto;
+}
+.offerProducts .newTotalOffers .miniCard .quantity-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  height: auto;
+}
+.offerProducts .newTotalOffers .miniCard .quantity-controls button {
+  background-color: #7f72b3;
+  border: none;
+  color: white;
+  padding: 5px 10px;
   cursor: pointer;
 }
-.offerProducts .newTotalOffers .miniCard .quantityOfProducts .btnBuy:hover {
-  color: #7f72b3;
-  background-color: white;
-  border: 2px solid black;
+.offerProducts .newTotalOffers .miniCard .quantity-controls span {
+  background-color: transparent;
+  align-content: center;
 }
 .offerProducts .newTotalOffers .miniCard .price {
   text-align: start;
@@ -635,6 +674,36 @@ body {
   text-align: start;
   padding: 30px 1px 30px 20px;
   height: auto;
+}
+.accesoriesProducts .accesories .cardAccesories .product-card,
+.accesoriesProducts .accesories .cardAccesories .buy-button {
+  padding: 10px 20px;
+  background-color: #36D1DC;
+  color: white;
+  border: none;
+  border-radius: 0px 0px 7px 7px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  height: auto;
+}
+.accesoriesProducts .accesories .cardAccesories .quantity-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  height: auto;
+}
+.accesoriesProducts .accesories .cardAccesories .quantity-controls button {
+  background-color: #7f72b3;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.accesoriesProducts .accesories .cardAccesories .quantity-controls span {
+  background-color: white;
+  align-content: center;
+  text-align: center;
 }
 
 /* SOPORTE */

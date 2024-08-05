@@ -33,101 +33,107 @@ body {
         height: auto;
 
 
-            .miniCard {
-                display: flex;
-                flex-direction: column;
+        .miniCard {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 10px;
+            width: auto;
+            background-color: gainsboro;
+            border: 2px solid #7f72b3;
+            border-radius: 10px;
+
+            .titleProductOffer {
                 align-items: center;
-                margin: 10px;
-                width: auto;
-                background-color: gainsboro;
-                border: 2px solid #7f72b3;
-                border-radius: 10px;
+                text-transform: uppercase;
+                text-align: center;
+                height: 40%;
+                font-family: "Open Sans", sans-serif;
 
-                .titleProductOffer {
-                    align-items: center;
-                    text-transform: uppercase;
-                    text-align: center;
-                    height: 40%;
-                    font-family: "Open Sans", sans-serif;
-
-                    &:hover {
-                        cursor: pointer;
-                        color: #7f72b3;
-                        transition: 0.3s;
-                    }
+                &:hover {
+                    cursor: pointer;
+                    color: #7f72b3;
+                    transition: 0.3s;
                 }
-
-                .imgProduct {
-                    object-fit: contain;
-                    height: 100%;
-                    width: 100%;
-                    background-color: white;
-                }
-
-                .newOffer {
-                    display: flex;
-                    justify-content: space-between;
-                    margin-top: 10px;
-
-                    .priceOffer {
-                        display: inline;
-                        width: auto;
-                        margin-left: 15px;
-                        color: rgb(24, 133, 24);
-                    }
-
-                    .discount {
-                        display: inline;
-                        width: auto;
-                        margin-right: 20px;
-                        color: red;
-                        text-transform: uppercase;
-                        cursor: grab;
-                    }
-                }
-
-                .quantityOfProducts {
-                    display: flex;
-                    justify-content: space-between;
-                    .oldPrice {
-                        display: inline;
-                        margin-left: 15px;
-                        width: auto;
-                        text-decoration: line-through;
-                    }
-                    .numberInput {
-                        display: inline;
-                        margin-left: 150px;
-                        width: 40px;
-                        height: 10px;
-                        padding: 10px;
-                        background-color: transparent;
-                    }
-                    .btnBuy {
-                        background-color: #7f72b3;
-                        color: white;
-                        border: 2px solid white;
-                        width: 45px;
-                        height: 34px;
-                        margin-right: 10px;
-                        cursor: pointer;
-                        &:hover {
-                        color: #7f72b3;    
-                        background-color: white;
-                        border: 2px solid black;
-                        }
-                    }
-                }
-
-
-
-                .price {
-                    text-align: start;
-                    padding: 30px 1px 30px 20px;
-                    height: auto;
-                }
-
             }
+
+            .imgProduct {
+                object-fit: contain;
+                height: 100%;
+                width: 100%;
+                background-color: white;
+            }
+
+            .newOffer {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 10px;
+
+                .priceOffer {
+                    display: inline;
+                    width: auto;
+                    margin-left: 15px;
+                    color: rgb(24, 133, 24);
+                }
+
+                .oldPrice {
+                    display: inline;
+                    margin-left: 15px;
+                    width: auto;
+                    text-decoration: line-through;
+                }
+                
+                .discount {
+                    display: inline;
+                    width: auto;
+                    margin-right: 15px;
+                    color: red;
+                    text-transform: uppercase;
+                    cursor: grab;
+                    }
+            }
+
+
+
+            .product-card, .buy-button {
+                padding: 10px 20px;
+                background-color: #36D1DC;
+                color: white;
+                border: none;
+                border-radius: 0px 0px 7px 7px;
+                cursor: pointer;
+                transition: background-color 0.3s;
+                height: auto;
+            }
+
+            .quantity-controls {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 10px;
+                height: auto;
+            }
+
+            .quantity-controls button {
+                background-color: #7f72b3;
+                border: none;
+                color: white;
+                padding: 5px 10px;
+                cursor: pointer;
+            }
+
+            .quantity-controls span {
+                background-color: transparent;
+                align-content: center;
+                
+            }
+
+            .price {
+                text-align: start;
+                padding: 30px 1px 30px 20px;
+                height: auto;
+            }
+
         }
     }
-
+}
