@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Roboto+Slab&display=swap");
+
+.cardPokemon {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+    width: auto;
+    height: auto;
+    padding: 30px;
+
+
+    .pokemon {
+        height: auto;
+        border-radius: 1rem;
+        background-color: #f00031;
+        box-shadow: 0 0 3rem -1rem rgba(0, 0, 0, .25);
+        padding-block: 1rem;
+        text-transform: uppercase;
+        position: relative;
+        isolation: isolate;
+        overflow: hidden;
+        outline: 4px solid black;
+    }
+
+
+    .pokeId {
+        text-align: center;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    .infoPokemon {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        text-align: center;
+        background-color: white;
+        height: 100%;
+        border-top: 4px solid black;
+        gap: 10px;
+        font-family: "Handjet", sans-serif;
+        font-optical-sizing: auto;
+        font-size: 20px;
+        color: black;
+        font-weight: bolder;
+    }
+
+}
+
+.pokemon-imagen {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    height: 200px;
+    padding: 10px;
+}
+
+.pokeImg {
+    width: 200px;
+    height: 200px;
+}
+
+.pokeImg:hover {
+    width: 180px;
+    height: 180px;
+    background-image: url(https://www.freeiconspng.com/uploads/pokeball-icon-4.png);
+    background-size: cover;
+    border-radius: 60px;
+}

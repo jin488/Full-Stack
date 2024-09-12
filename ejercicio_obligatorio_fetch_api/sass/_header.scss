@@ -1,0 +1,22 @@
+header {
+    background-image: url(../img/header.png);
+    background-size: cover;
+    height: 200px;
+    align-content: center;
+    font-family: "Handjet", sans-serif;
+    font-optical-sizing: auto;
+    text-align: center;
+}
+
+header h2 {
+    color: white;
+    font-size: 130px;
+    text-decoration: underline;
+
+}
+
+h2:hover {
+    cursor: pointer;
+    color: yellow;
+    font-weight: bold;
+}
